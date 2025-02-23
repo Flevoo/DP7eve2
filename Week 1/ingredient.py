@@ -1,7 +1,7 @@
 class Ingredient:
     def __init__(self, naam, hoeveelheid, eenheid):
         self.__naam = naam
-        self.__hoeveelheid = 0.0
+        self.__hoeveelheid = hoeveelheid
         self.__eenheid = eenheid
 
     def __str__(self):
